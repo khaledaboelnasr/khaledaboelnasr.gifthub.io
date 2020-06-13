@@ -1,0 +1,46 @@
+* {
+	color: black
+}
+
+.khaled23 {
+	color: blue
+}
+
+#khaled1 {
+	color: red
+}
+
+[width = "100px"]
+  {
+  	color: gray
+  }
+
+[width ^= "2"]
+{
+	color: cyan
+}
+
+[width $= "5"]
+{
+	color: salmon
+}
+
+[width *="0"]
+{
+	color: orange
+}
+
+[abc ~="ccc"]
+{
+	color: khaki
+}
+
+[abc |="ccc"]
+{
+	color: plum
+}
+
+#kaboelnasr {
+	color: red
+}
+

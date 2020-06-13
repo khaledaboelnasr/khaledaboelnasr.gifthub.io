@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <meta charset="utf-8">
-<head><link rel="Icon" type="image/png" href="https://www.pinclipart.com/picdir/middle/154-1548193_pulse-gaming-pulse-gaming-logo-clipart.png"><title> Gaming page [Testing out]</title>
+<head>
+<link rel="stylesheet" type="text/css" href="testing.css">
+<link rel="Icon" type="image/png" href="https://i.imgur.com/Pxw8fJ5.png">
+<title> Gaming page [Testing out]</title>
+
+
+<!--These are things to add in your head tag [meta 3ashan tesahel lel search engines yela2o el site beta3ak] -->
+<meta name="Auther" content="Khaled"></meta><meta name="description" content="This my page to test codes in"> 
 </head>
+
 <body>
 
+  <!--Body changes - BGcolor: to change your page background color - background: to change your background picture - link: law 3ayez te8ayar loon el links ely bet7otohom fel page alink: law 3ayez te8ayar loon el active link, wa2ef 3al link bas lesa madostesh - vlink: lama tekon khlas dost 3al link 3ashan tevisit-->
+
+  <!-- <Script></script> - el tag deh betestakhdemha 3ashan te2ol lel browser enak hat7awel masaln men HTMl le language tanya zay javascript keda - Lama tegy tekteb el code beta3ak bel javascript tekteb mabeen el code - Deh momken testakhdemha fel head aw el body-->
+
 	<img src="https://i.imgur.com/bzPobyh.jpg" alt="End of Watch" title="End of Watch" class="thumbnail" width="150">
-	<h1 style="color: #4a007e">&copy;End of Watch</h1>
+	<h1>&copy;End of Watch</h1>
 
 	<!--Attributes (style) and such-->
     
@@ -29,12 +41,40 @@
     	<li>[This orders the sentence with numbers</li>
     	<li>Testing out order list.]</li>
     </ol>
+    
+    <ol type="i">
+      <li>Ordered list
+         <ol type="i" start="5">
+           <li>Ordered list into order list.</li>
+           <li>Ordered list into ordered list</li>
+         </ol>
+      </li>
+    </ol>
 
     <!--Unordered Lists-->
     <ul>
     	<li>[This orders the sentence with points.</li>
     	<li>Testing out unordered list.]</li>
     </ul>
+
+    <ul type="Square">
+      <li>Unordered list</li>
+      <ul type="Circle">
+        <li>Unordered list into unordered list.</li>
+      </ul>
+    </ul>
+
+    <!--Definition List-->
+    <dl>
+      <dt>Definition List. - Car</dt>
+      <dd>Car has four wheels.</dd>
+    </dl>
+
+    <dl>
+        <dt>Gta:samp</dt>
+        <dd>Grand Theft Auto - San Andreas Multi-player</dd>
+    </dl>
+
 
     <!--Line Breaks-->
     [BR tag breaks the line<br>between sentences or words]
@@ -79,72 +119,95 @@
         <figcaption>Picture with link inside it.</figcaption>
        </figure>
 
-     <!--Linking to other pages/links you made-->
+     <!--Linking to other pages/links you made OR email-->
         <p><a href="gaming.html">Gaming [Other page I made]</a><br>
-        <a href="https://www.youtube.com/">Youtube</a></p>
+        <a href="https://www.youtube.com/">Youtube</a><br>
+        <a href="mailto:domain:khaled.aboelnasr20@gmail.com">Email me</a></p>
 
         <div id="History"><B><i>This is related to the navigation tag [History of the site navigation]</i></B></div>
         <div id="Navigation"><B><i>This is related to the navigation tag [Testing out navigation]</i></B></div>
 
-       <!--Audio and Video to my page-->
+       <!--Iframe [Video/Audio/Map/Page]-->
            <!--Video-->
-           <iframe width="560" height="315" src="https://www.youtube.com/embed/ouCuyQI9pXc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+           <center><iframe width="560" height="315" src="https://www.youtube.com/embed/ouCuyQI9pXc" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen frameborder="5"></iframe><br>
 
            <!--Audio-->
 
            <iframe width="200" height="265" src="https://clyp.it/ahhnj50y/widget"></iframe><br>
 
-           <audio src="Stillwantyou.mp3" controls></audio>
+           <audio src="Stillwantyou.mp3" controls></audio><br>
+
+           <!--Map-->
+           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6490.518972983575!2d31.288660000000004!3d30.09358000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2seg!4v1591012175485!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><br>
+           
+          <!--Page I made-->
+          <iframe src="Gaming.html" width="400" height="400"></iframe></center>
+
 
            <!--Table-->
-           
-            <table>
-            <tr>
-              <th>First name</th>
-              <th>Second name</th>
-              <th>Surname</th>
-              <th>Notes</th>
-            </tr>
-            <tr>
-              <td>Five</td>
-              <td>Six</td>
-              <td>Seven</td>
-              <td>Eight</td>
-            </tr>
-            <tr>
-              <td>Nine</td>
-              <td>Ten</td>
-              <td>Eleven</td>
-              <td>Twelve</td>
-            </tr>
-           </table><br>
 
-           <table>
-            <tr>
-              <th>#</th><th>First name</th><th>Second name</th><th>Surname</th><th>NOTES</th>
-            </tr>
-            <tr>
-              <td><b>1</b></td>
-              <td><b>Khaled</b></td>
-              <td><b>Mahmoud</b></td>
-              <td><b>Aboelnasr</b></td>
-              <td><b>Khorry</b></td>
-            <tr>
-              <td><B>2</B></td>
-              <td><b>Youssef</b></td>
-              <td><B>Ezzat</B></td>
-              <td><B>Mohamed</B></td>
-              <td><b>Ezzat</b></td>
-            </tr>
-            <tr>
-              <td><b>3</b></td>
-              <td><b>Hamza</b></td>
-              <td><b>Mostafa</b></td>
-              <td><b>Ma3rafsh</b></td>
-              <td><b>Bazaweeezo - Zuzaaa</b></td>
-            </tr>
+           <center><table width="800px" border="3px">
+             <caption>Text before table - Caption</caption>
+             <thead bgcolor="Black">
+              <tr>
+               <th><font color="White">Table header</font></th>
+               <th><font color="White">ID</font></th>
+               <th><font color="White">Name</font></th>
+              </tr>
+             </thead>
+             <tbody bgcolor="#696969">
+              <tr>
+               <td><font color="White">Table body</font></td>
+               <td align="center"><font color="White">1</font></td>
+               <td><font color="White">Khaled</font></td>
+              </tr>
+              <tr>
+               <td><font color="White">Table body</font></td>
+               <td align="center"><font color="White">2</font></td>
+               <td><font color="White">Mahmoud</font></td>
+              </tr>
+             </tbody>
+             <tfoot bgcolor="#808080">
+               <tr>
+                 <td><font color="White">Table footer</font></td>
+                 <td align="center"><font color="White">3</font></td>
+                 <td><font color="White">Aboelnasr</font></td>
+               </tr>
+             </tfoot>
            </table>
 
+           <br>
+           <br>
+
+           <table border="2" width="500px" cellpadding="5px" cellspacing="2px">
+
+            <thead>
+              <tr>
+                <th colspan="2">Name</th>
+                <th rowspan="2" width="50%">Address</th>
+              </tr>
+              <tr>
+                <th width="25%">First</th>
+                <th>Second</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td colspan="3" align="center">Khaled Aboelnasr</td>
+              </tr>
+              <tr>
+                <td rowspan="2" colspan="2" align="center" valign="top">Data</td>
+                <td>25</td>
+              </tr>
+              <tr>
+                <td height="100px">Colspawn and rowspawn testing</td>
+              </tr>
+            </tbody>
+           </table></center>
+
+           <hr>
+           <hr>
            <!--Useful tags-->
            <article><h4>Article tag - Testing</h4></article>
            <aside>Aside tag - Testing</aside>
@@ -155,27 +218,122 @@
            <blockquote>Blockquote tag - testing</blockquote>
            <div id="Details"><details>Testing out the details and summary tag<summary>Details and summary tag</summary></details></div>
 
-           This tag is used to make it easier for people to search for the specific information (cite) <cite>www.youtube.com</cite><br>
+           This tag is used to make it easier for people to search for the specific information (cite) <cite>www.youtube.com</cite><br><br>
 
-           Abbreviation tag - <abbr title="Khaled Mahmoud Aboelnasr">Khaled</abbr> <abbr title="Monday"></abbr><br>
+           Abbreviation tag - <abbr title="Khaled Mahmoud Aboelnasr">Khaled</abbr> <abbr title="Monday"></abbr><br><br>
 
-           Time tag - The meeting starts at <time>9:00pm.</time><br>
+           Time tag - The meeting starts at <time>9:00pm.</time><br><br>
 
-           Testing out <code>code</code> tag<br>
+           Testing out <code>code</code> tag<br><br>
 
-           Testing out <sub>subscript text</sub><br>
+           Testing out <sub>subscript text</sub><br><br>
 
-           Testing out <sup>superscript text</sup><br>
+           Testing out <sup>superscript text</sup><br><br>
 
-           <button>Button tag</button><br>
+           <button>Button tag</button><br><br>
 
-           <bdo dir="rtl">Right to left</bdo><br>
+           <bdo dir="rtl">Right to left</bdo><br><br>
 
-           <meter value="2" min="0" max="10">2 Out of 10</meter><br>
+           <meter value="2" min="0" max="10">2 Out of 10</meter><br><br>
 
-           <progress value="32" max="100">32%</progress><br>
+           <progress value="32" max="100">32%</progress><br><br>
 
-           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6490.518972983575!2d31.288660000000004!3d30.09358000000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2seg!4v1591012175485!5m2!1sen!2seg" width="600" height="450" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><br>
+           <!--Pre tag that displays the text as you write it in the code-->
+           <pre>Pre tag displayes the text just as written in the code
+                            Pre tag
+                                       Pre</pre>
+           <!--Different codes for a lot of usages-->
+           Break tag
+            <br>
+            <br>
+               Break tag &nbsp&nbsp&nbsp&nbsp Space code<br>
+               Greater than &gt greater.<br>
+              Less than &lt less
+            <br><br>
+            <hr>
+            <hr>
+            <br>
+
+            <!--Forms [Method  get: dah beyeb3at el data foo2 fel link - post dah beyb3atha bas fel input beta3 el page] -->
+            <form method="post" action="gaming.html">
+            Username <input type="text" name="Username"><br>
+            Password <input type="password" name="mypassword"><br>
+            <input type="hidden" name="hidden thing" value="hidden">&nbsp Type - Hidden<br>
+            <font size="3" color="purple"><b>Hobbies</b></font><br>
+            <input type="checkbox" name="fav" value="Basketball">Basketball<br>
+            <input type="checkbox" name="fav" value="Vollyball">Vollyball<br>
+            <input type="checkbox" name="fav" value="Football">Football<br>
+            <font size="3" color="purple"><b>Gender</b></font><br>
+            <input type="radio" name="gender" value="Male">Male<br>
+            <input type="radio" name="gender" value="Female">Female<br>
+            <input type="button" name="button" value="APPLY"><br>
+            <input type="image" name="imagetype" src="https://w7.pngwing.com/pngs/165/169/png-transparent-button-computer-icons-submit-button-text-trademark-photography.png" width="50"><br>
+            <input type="file" name="file1"><br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="submit" name="sumbitting"><input type="reset" name="resetting"><br>
+            <textarea cols="50" rows="10" name="typing area"></textarea><br>
+            <select size="4" multiple>
+              <option>Khaled</option>
+              <option>Mahmoud</option>
+              <option>Ahmed</option>
+              <option>Aboelnasr</option>
+            </select>
+            </form><hr><hr>
+
+            <!--Bagarb CSS-->
+
+            <h2 id="khaled1">Khaled</h2>
+            <h2 class="khaled23">Khaled</h2>
+            <h2>Khaled</h2>
+
+            <!--Hena hastakhdem el attribute selector [ba7ot hena ba2a hasab ana 3ayez eh masalan: width] - Keda halawen ay haga feha attribute witdth - Law 3ayez width mo3ayan ba7ot ="we a7ot el value hena"-->
+            <div width="123px">Khaled</div>
+            <div width="153px">Khaled</div><br>
+
+            <!--Hena hastakhdem attribute selector bardo bas ha7ot masalan kol el widths ely beyebtedo be 2 [width ^="2"] -->
+            <div width="255">Aboelnasr</div>
+            <div width="359">Aboelnasr</div><br>
+
+            <!--Hena hastakhdem attribute selector bas ha7ot kol el widths ely beyenteho be 5 [width $="5"] --> 
+            <div width="455">Mahmoud</div>
+            <div width="558">Mahmoud</div><br>
+
+            <!--Hena hastakhdem attribute selector bas ha7ot masalan kol el widths ely feha 0 [width *="0"] -->
+            <div width="406">Mahmoud</div>
+            <div width="587">Mahmoud</div><br>
+
+            <!--Hena hastakhdem attribute selector mokhtalef ely howa abc [abc ~="ccc"] dah haylawen ay haga feha el abc ccc lewahda-->
+            <div abc="abc ccc">Aboelnasr</div>
+            <div abc="abc">Aboelnasr</div><br>
+
+            <!--hena hastakhdem attribute selector ely howa abc [abc |="ccc"] hena halawen ay abc beyebtedy be ccc aw masaln ccc-khaled-->
+            <div abc="ccc-khaled">Aboelnasr</div>
+            <div abc="ccc">Aboelnasr</div>
+            <div abc="khaled ccc">Aboelnasr</div>
+
+            <div id="kaboelnasr">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+
+
 
 </body>
 </html>
+
+
+                                                   <!--CSS-->
+<!--Simple selectors - 3ashan testakhdem CSS fe nafs file el HTML estakhdem tag <style></style> gowa el head tag-->
+<!--Law 3ayez te link le file tany 3ashan tezbot el css we keda badal matestakhdem nafs el file estakhdem 
+"<link rel="stylesheet" type="text/css" href="testing.css">" we 8ayar ba2a fel href 7asab esm el file-->
+<!--Class selector enak te7ot gamb kol haga class="" we te7ot el value we 3ashan adawar astakhdem . -->
+<!--ID selector enak te7ot gamb ay haga enta 3ayez te8ayarha belzat ID="" we te7ot ba2a ay haga bas matkararsh we 3ashan adawar astakhdem #-->
+<!--El UNIVERSAL selector enak *   -->
+<!-- Law 3ayez eny a3mel kaza haga nafs el loon aw ayan kaan a7otohom kolohom fe wahda badal makarar example:
+  h1,h2,h3,h4 {
+                   
+                  color: green;
+  }-->
+<!--Pseudo selectors lel CSS [ ::after | Dah beyekteb masaln gomla ba3d el kalam a7ot content - ::before | dah beyekteb ba3d el goma ::first-leter | awel 7arm fel kalam kolo we a8ayar ba2a feeh - ::first-line | dah bey8ayar awel satr kolo ::selection - ::hover | lama tegeb el mouse 3aleha el loon yet8ayar.] 
